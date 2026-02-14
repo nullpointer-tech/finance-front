@@ -136,7 +136,7 @@ export const transactionService = {
     const [transactions, categories, wallet] = await Promise.all([
       this.getTransactions(startDate, endDate, 0), // Get ALL transactions for summary
       this.getCategories(),
-      this.getProducts(),
+      // this.getProducts(),
       this.getWallet(),
     ]);
 
