@@ -1,0 +1,63 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.env
+.env.production
+
+# ======================
+# OS / Editor
+# ======================
+.DS_Store
+.idea/
+.vscode/
+
+# ======================
+# Logs
+# ======================
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ======================
+# Node (frontend later)
+# ======================
+node_modules/
+
+# ======================
+# Docker
+# ======================
+*.local
+
+backend/app/api/admin.py
+
+# Node modules
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
