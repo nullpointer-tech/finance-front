@@ -133,7 +133,7 @@ export const transactionService = {
 
   // Calculate summary from transactions
   async getSummary(startDate: Date, endDate: Date): Promise<Summary> {
-    const [transactions, categories, products, wallet] = await Promise.all([
+    const [transactions, categories, wallet] = await Promise.all([
       this.getTransactions(startDate, endDate, 0), // Get ALL transactions for summary
       this.getCategories(),
       this.getProducts(),
